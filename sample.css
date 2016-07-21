@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto', serif;
+    background: url(band.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    width: 80%;
+    margin: 1em auto;
+    padding: 1%;
+    background: rgba(255,255,255,0.8)
+}
