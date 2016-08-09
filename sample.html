@@ -7,17 +7,28 @@
     <title>DevCamp Level 2 - HTMLDAY</title>
 </head>
 <body>
-<section id="desc">
-    <h1>BANDBAND</h1>
-    <p>Bandband is a band like you've never heard before. Combining elements of Norweian black metal, traditional Balkan brass music, and 80's-era Kinks, Bandband will punch you in the head with a trumpet.</p>
-    <p>Here's a test to see if I can get git to work.</p>
+<h1 class="logo">Tom Hagerman</h1>
+<section id="desc"> 
+    <h2>Abandon All Hope!</h2>
+    <img src="hagerman-hero.png" class="hero">
 </section>
+<div class="container">
 <section id="media"> 
     <h1>MEDIA</h1>
-    <!-- add some media files here -->
+    <video id="demo" src="http://natestone.com/sample.ogv" loop>
+        <p>Your browser doesn't support the <code>video</code> element</p>
+    </video>
+    <div>
+        <button onclick="document.getElementById('demo').play()">PLAY</button>
+        <button onclick="document.getElementById('demo').pause()">PAUSE</button>
+        <button onclick="document.getElementById('demo').stop()">STOP</button>
+    </div>
+    <audio src="music.mp3" controls>
+        <p>Your browser doesn't support the <code>audio</code> element</p>
+    </audio>
 </section>
 <section id="tour">
-    <h1>TOUR DATES</h1>
+    <h1></h1>
         <ul>
             <li>8/23: Boston, MA</li>
             <li>8/24: Washington, DC</li>
@@ -28,6 +39,19 @@
 <section id="contact">
     <h1>CONTACT US</h1>
     <!-- put a form here -->
+    <form>
+        <label for="name">Your Name:</label>
+        <input type="text" name="name">
+        <br>
+        <label for="email">Your Email:</label>
+        <input type="text" name="email">
+        <br>
+        <label for="coments">Your Comments:</label>
+        <textarea name="comments"></textarea>
+        <br>
+        <input type="submit" name="submitBtn">
+    </form>
 </section>
+</div>
 </body>
 </html>
