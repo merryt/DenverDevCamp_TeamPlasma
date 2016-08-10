@@ -56,4 +56,8 @@ button {
 .container {
     flex-direction: row;
     display: flex;
+
+}
+#contact{width: 100%;
+height:300px;
 }
