@@ -40,7 +40,7 @@ button {
     width:33%;
 }
 #desc {
-    width: 100%;
+    width: 95%;
     height:300px;
     overflow: hidden;
 }
@@ -58,6 +58,6 @@ button {
     display: flex;
 
 }
-#contact{width: 100%;
+#contact{width: 95%;
 height:200px;
 }
