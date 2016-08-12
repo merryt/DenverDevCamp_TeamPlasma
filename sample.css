@@ -12,6 +12,8 @@ body {
 
 h1 {
     font-family: 'Oswald', sans-serif;
+     font-size: 50px;
+     margin-left: 50px;
 }
 
 h2 {
@@ -40,7 +42,7 @@ button {
     width:33%;
 }
 #desc {
-    width: 95%;
+    width: 90%;
     height:300px;
     overflow: hidden;
 }
@@ -58,6 +60,9 @@ button {
     display: flex;
 
 }
-#contact{width: 95%;
-height:200px;
+#contact, #mediamore, #Aboutmore{width: 90%;
+
+}
+.link{
+    text-decoration:underline;
 }
