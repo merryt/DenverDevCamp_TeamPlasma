@@ -15,7 +15,8 @@ $(".aboutbutton").click(function(){
 $( document ).ready(function() {
 
 	$(document).keypress(function(e){
-		if(e.which== 99){
+		console.log(e.which)
+		if(e.which== 61){
 			console.log("game time")
 			$('.content').bPopup({
             content:'iframe', //'ajax', 'iframe' or 'image'
