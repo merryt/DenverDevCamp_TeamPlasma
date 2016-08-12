@@ -13,10 +13,20 @@ $(".aboutbutton").click(function(){
 	window.scrollTo(0,1000)
 })
 $( document ).ready(function() {
+
 	$(document).keypress(function(e){
 		if(e.which== 99){
 			console.log("game time")
+			$('.content').bPopup({
+            content:'iframe', //'ajax', 'iframe' or 'image'
+            contentContainer:'.content',
+            loadUrl:'http://slither.io/' //Uses jQuery.load()
+        });
+                
+			
 		}
 		//console.log(e.which)
 	});
 });
+
+ 
