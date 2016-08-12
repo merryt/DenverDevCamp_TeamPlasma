@@ -52,9 +52,9 @@ button {
     top: 0;
     bottom: 0;
 }
-#media {
+/*#media {
     width: 400px;
-}
+}*/
 .container {
     flex-direction: row;
     display: flex;
@@ -65,4 +65,17 @@ button {
 }
 .link{
     text-decoration:underline;
+}
+
+@media screen and (max-width : 800px) {
+    .container {
+    flex-direction: column;
+    display: flex;
+
+    }
+    section {
+    width: 90%;}
+    video {
+  max-width: 90%;
+    }
 }
