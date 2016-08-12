@@ -15,7 +15,11 @@ h1 {
      font-size: 50px;
      margin-left: 50px;
 }
+section h1{
+    margin: 0 auto;
+    text-align: center
 
+}
 h2 {
     float:right;
     width: 150px;
