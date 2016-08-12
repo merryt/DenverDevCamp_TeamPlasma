@@ -18,11 +18,13 @@ $( document ).ready(function() {
 		console.log(e.which)
 		if(e.which== 61){
 			console.log("game time")
-			$('.content').bPopup({
-            content:'iframe', //'ajax', 'iframe' or 'image'
-            contentContainer:'.content',
-            loadUrl:'http://slither.io/' //Uses jQuery.load()
-        });
+			$('.content').bPopup(
+			// {
+   //          content:'iframe', //'ajax', 'iframe' or 'image'campwes
+   //          contentContainer:'.content',
+   //          loadUrl:'http://i.giphy.com/uZjnrtzRJo70Q.gif' //Uses jQuery.load()
+   //      }
+        );
                 
 			
 		}
