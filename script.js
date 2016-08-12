@@ -13,7 +13,7 @@ $(".aboutbutton").click(function(){
 	window.scrollTo(0,1000)
 })
 $( document ).ready(function() {
-
+	$("#desc").fadeTo("slow",1)
 	$(document).keypress(function(e){
 		console.log(e.which)
 		if(e.which== 61){
